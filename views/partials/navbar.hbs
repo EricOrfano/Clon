@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="/navbar.css">
+
+<nav class="fondo">
+      <ul class="menu">
+         <li class="nav-item">
+            <a class="nav-link" href="/">Inicio</a> 
+        </li>
+        {{#if user}}
+        <li class="nav-item">
+          <a class="nav-link" href="secret">Secreta</a>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Ajustes
+          </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/users/settings">Configuración de Cuenta</a></li>
+            <li><a class="dropdown-item" href="/users/validate">Validar Email</a></li>
+        </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="users/logout">Cerrar sesión</a>
+        </li>
+        </li>
+        {{else}}
+        <li class="nav-item">
+          <a class="nav-link" href="/users/login">Iniciar Sesion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/users/register">Registrarse</a>
+        </li>
+        {{/if}}
+      </ul>
+</nav>
+
+
+

@@ -1,0 +1,305 @@
+/* BODY */
+
+*{
+    margin: 0;
+    font-family: 'Edu NSW ACT Foundation';
+    font-family: 'Roboto', sans-serif;     
+}
+
+.fondo{
+    height: 100%;
+    background-image: url("https://i.gifer.com/KV2j.gif");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0 100px 0 100px;
+}
+
+.contenedorgeneral{
+    background-color: white;
+    padding: 10px 0 100px 0;
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0%;
+}
+
+.logo-titulo h1 {
+    display: flex;
+    text-align: right;
+    font-family: fantasy;
+    font-size: 90px; 
+    border: 2px solid;
+    box-shadow: rgb(150,150,150) 5px 5px;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:black; 
+    font-size: 32px; 
+    background-color:antiquewhite; 
+    border: 1px solid grey; 
+    text-align: center; 
+    padding:.5rem 0
+}
+
+.playa1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;    
+}
+
+h3.subtitulo1 {
+    text-decoration:underline;
+    color:black;
+    margin-left: 5rem;
+}
+
+
+.playa1 p {
+    display: inline;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 100ch;
+    margin: 5px;
+    height: 100%;
+    text-indent: 25px;
+    -webkit-text-stroke: 1px black;  
+    background-color: white;  
+    height: auto;
+    opacity: 0.7;
+}
+
+#mardelplata {
+    width: 500px;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+/* ARTICULO 2 */
+
+
+.container2 {
+    display: flex;
+}
+
+.playa2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3.subtitulo2 { 
+    text-align: right;
+    margin-right: 8rem;
+    text-decoration: underline;
+}
+
+.playa2 p {
+    display: inline;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 100ch;
+    margin: 5px;
+    height: 100%;
+    text-indent: 25px;
+    -webkit-text-stroke: 1px black;  
+    background-color: white;  
+    height: auto;
+    opacity: 0.7;
+}
+
+#pinamar {
+    width: 500px;
+    height: 300px;
+    border-radius: 1rem;
+    margin-right: 20px;
+}
+
+/* ARTICULO 3 */
+
+.container3 {
+    display: flex;
+   
+}
+
+.playa3 {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+h3.subtitulo3 {
+    text-decoration:underline;
+    color:black;
+    margin-left: 5rem;
+}
+
+
+.playa3 p {
+    display: inline;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 100ch;
+    margin: 5px;
+    height: 100%;
+    text-indent: 25px;
+    -webkit-text-stroke: 1px black;  
+    background-color: white;  
+    height: auto;
+    opacity: 0.7;
+}
+
+#piedras {
+    width: 500px;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+
+
+/* MEDIA QUERIES */
+/* TABLET */
+@media screen and (max-width: 820px) and (min-width: 577px){   
+    .header-container{
+        flex-direction: column;
+
+    }
+
+    .logo-titulo h1 {
+        text-align: center;
+    }
+
+    .navList {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .containertitulos{
+        flex-direction: column;
+    }
+
+    h3.subtitulo1{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    h3.subtitulo2{
+        text-align: center;
+        margin-right: 0;
+    }
+
+    h3.subtitulo3{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .playa1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .playa2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .playa3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+}
+
+/* CELULAR */
+
+@media screen and (max-width: 576px) and (min-width: 360px){
+    .header-container{
+        flex-direction: column;
+    }
+
+    .logo-titulo h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .navList {
+        display: flex;
+        flex-direction: row;
+    }
+    .containertitulos{
+        flex-direction: column;
+    }
+
+    h3.subtitulo1{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    h3.subtitulo2{
+        text-align: center;
+        margin-right: 0;
+    }
+  
+    h3.subtitulo3{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .playa1 {
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .playa2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .playa3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    #mardelplata {
+        width: 350px;
+        height: 300px;
+    }
+
+    #pinamar {
+        width: 350px;
+        height: 300px;
+    }
+
+    #piedras {
+        width: 350px;
+        height: 300px;
+    }
+
+    .contactos {
+       justify-content: center;
+    }
+}
+
+
+

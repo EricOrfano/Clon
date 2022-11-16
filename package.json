@@ -1,0 +1,27 @@
+{
+  "name": "integrador",
+  "version": "1.0.0",
+  "description": "Primer proyecto",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Orfano y Merlina Chiariello",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.6.5",
+    "node_express": "^0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "nodemonConfig": {
+    "ext": "js, json, hbs, html, css"
+  }
+}

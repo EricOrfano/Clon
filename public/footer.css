@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    font-family: 'Edu NSW ACT Foundation';
+    font-family: 'Roboto', sans-serif;     
+}
+
+/* PIE DE PAGINA */
+
+.pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    height: 100%;
+    background-image: url("https://i.gifer.com/KV2j.gif");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0 100px 0 100px;
+    margin-top: 0;
+}
+
+.contactos {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
+    transition: transform 250ms ease-in-out;
+}
+
+.logoface:hover{
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+
+.logoinsta:hover{
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+
+.logowhatsapp:hover{
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+
+.face {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.insta {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.whatsapp {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}

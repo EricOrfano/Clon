@@ -1,0 +1,16 @@
+.fondo{
+    height: 100%;
+    background-image: url("https://i.gifer.com/KV2j.gif");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0 100px 0 100px;
+}
+
+.logo-titulo{
+    font-family: fantasy;
+    font-size: 90px; 
+    margin: 0;
+    border: 10px;
+}
